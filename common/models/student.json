@@ -18,6 +18,10 @@
     "location": {
       "type": "geopoint",
       "required": true
+    },
+    "gender": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],

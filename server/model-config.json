@@ -38,6 +38,8 @@
   },
   "Student": {
     "dataSource": "TutorFinderdb",
-    "public": true
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }
