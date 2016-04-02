@@ -35,5 +35,9 @@
   "Message": {
     "dataSource": "TutorFinderdb",
     "public": true
+  },
+  "Student": {
+    "dataSource": "TutorFinderdb",
+    "public": true
   }
 }
