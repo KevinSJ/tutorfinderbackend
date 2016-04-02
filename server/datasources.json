@@ -1,6 +1,9 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory"
+  "TutorFinder": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "tutorfinderdb",
+    "name": "TutorFinder",
+    "connector": "postgresql"
   }
 }
