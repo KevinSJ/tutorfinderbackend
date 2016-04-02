@@ -16,9 +16,9 @@
     "host": "localhost",
     "port": 5432,
     "database": "tutorfinderdb",
-    "password": "12345",
+    "password": "",
     "name": "TutorFinderdb",
-    "user": "Yipeng",
+    "user": "",
     "connector": "postgresql"
   }
 }
