@@ -1,0 +1,27 @@
+{
+  "name": "Student",
+  "plural": "Students",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "degree": {
+      "type": "string",
+      "required": true,
+      "default": "bachelor"
+    },
+    "description": {
+      "type": "string"
+    },
+    "location": {
+      "type": "geopoint",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
