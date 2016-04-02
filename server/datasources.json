@@ -1,9 +1,24 @@
 {
-  "TutorFinder": {
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "newDatasource": {
     "host": "localhost",
     "port": 5432,
     "database": "tutorfinderdb",
-    "name": "TutorFinder",
+    "password": "12345",
+    "name": "newDatasource",
+    "user": "Yipeng",
+    "connector": "postgresql"
+  },
+  "TutorFinderdb": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "tutorfinderdb",
+    "password": "12345",
+    "name": "TutorFinderdb",
+    "user": "Yipeng",
     "connector": "postgresql"
   }
 }
