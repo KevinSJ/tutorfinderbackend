@@ -41,5 +41,9 @@
     "public": true,
     "$promise": {},
     "$resolved": true
+  },
+  "UserPhoto": {
+    "dataSource": "TutorFinderdb",
+    "public": true
   }
 }

@@ -22,10 +22,27 @@
     "gender": {
       "type": "string",
       "required": true
+    },
+    "tutor": {
+      "type": "boolean",
+      "required": true
+    },
+    "rating": {
+      "type": "number",
+      "required": true
+    },
+    "name": {
+      "type": "string"
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "userPhotos": {
+      "type": "hasMany",
+      "model": "UserPhoto",
+      "foreignKey": "id"
+    }
+  },
   "acls": [],
   "methods": {}
 }
