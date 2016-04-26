@@ -35,6 +35,18 @@
     },
     "name": {
       "type": "string"
+    },
+    "securityQuestion":{
+      "type": "string"
+      "required":true
+    },
+    "securityAnswer":{
+      "type": "string"
+      "required": true
+    },
+    "university":{
+      "type":"string"
+      ""
     }
   },
   "validations": [],
