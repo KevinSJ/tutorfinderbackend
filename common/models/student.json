@@ -37,11 +37,11 @@
       "type": "string"
     },
     "securityQuestion":{
-      "type": "string"
+      "type": "string",
       "required":true
     },
     "securityAnswer":{
-      "type": "string"
+      "type": "string",
       "required": true
     },
     "university":{
