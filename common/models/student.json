@@ -12,7 +12,7 @@
       "required": true,
       "default": "bachelor"
     },
-    "description": {
+    "descriptions": {
       "type": "string"
     },
     "location": {
@@ -30,7 +30,7 @@
       "type": "number",
       "required": true
     },
-    "avaliability": {
+    "availability": {
       "type": "string"
     },
     "name": {
