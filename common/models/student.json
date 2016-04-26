@@ -46,7 +46,6 @@
     },
     "university":{
       "type":"string"
-      ""
     }
   },
   "validations": [],
