@@ -13,8 +13,19 @@ app.start = function() {
       var explorerPath = app.get('loopback-component-explorer').mountPath;
       console.log('Browse your REST API at %s%s', baseUrl, explorerPath);
     }
+    var appModels = ['Student'];
+    var ds = app.dataSources.TutorFinderdb;
+    ds.isActual(appModels, function(err, actual) {
+    if (!actual) {
+                ds.autoupdate(appModels, function(err) {
+                if (err) throw (err);           
+            });     
+        }
+    })
   });
 };
+
+
 
 // Bootstrap the application, configure models, datasources and middleware.
 // Sub-apps like REST API are mounted via boot scripts.

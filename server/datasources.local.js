@@ -1,4 +1,4 @@
-var pgUri = process.env.DATABASE_URL||localhost 
+var pgUri = process.env.DATABASE_URL||"postgres://localhost:5432/tutorfinderdb" 
 
 module.exports = {
     "TutorFinderdb": {
