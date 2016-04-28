@@ -1,11 +1,17 @@
-var pgUri = process.env.DATABASE_URL||"postgres://localhost:5432/tutorfinderdb" 
-
+var pgUri = process.env.DATABASE_URL 
+var user = "uodhujnipeltjp" 
+var password = "Flf1oYUfEOgoWauu2S9ndRGi0Y";
+if(!pgUri){
+    pgUri = "postgres://localhost:5432/tutorfinderdb"
+    user = "patron"
+    password = "19930709"
+}
 module.exports = {
     "TutorFinderdb": {
     "url":pgUri,   
-    "password": "Flf1oYUfEOgoWauu2S9ndRGi0Y",
+    "password": password,
     "name": "TutorFinderdb",
-    "user": "uodhujnipeltjp",
+    "user": user,
     "connector": "postgresql"
     }
 }
