@@ -49,5 +49,9 @@
   "accessToken": {
     "dataSource": "TutorFinderdb",
     "public": false
-  }
+  },
+  "Security": {
+    "dataSource": "TutorFinderdb",
+    "public": false
+  } 
 }
