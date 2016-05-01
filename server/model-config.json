@@ -45,5 +45,9 @@
   "UserPhoto": {
     "dataSource": "TutorFinderdb",
     "public": true
+  },
+  "accessToken": {
+    "dataSource": "TutorFinderdb",
+    "public": false
   }
 }

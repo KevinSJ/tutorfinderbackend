@@ -13,7 +13,7 @@ app.start = function() {
       var explorerPath = app.get('loopback-component-explorer').mountPath;
       console.log('Browse your REST API at %s%s', baseUrl, explorerPath);
     }
-    var appModels = ['Student','Message'];
+    var appModels = ['Student','Message','accessToken'];
     var ds = app.dataSources.TutorFinderdb;
     ds.isActual(appModels, function(err, actual) {
     if (!actual) {

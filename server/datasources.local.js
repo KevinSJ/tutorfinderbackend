@@ -3,8 +3,8 @@ var user = "uodhujnipeltjp"
 var password = "Flf1oYUfEOgoWauu2S9ndRGi0Y";
 if(!pgUri){
     pgUri = "postgres://localhost:5432/tutorfinderdb"
-    user = "patron"
-    password = "19930709"
+    user = "Yipeng"
+    password = "12345"
 }
 module.exports = {
     "TutorFinderdb": {
