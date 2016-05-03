@@ -49,6 +49,9 @@
     },
     "university": {
       "type": "string"
+    },
+    "major": {
+      "type": "string"
     }
   },
   "validations": [],
