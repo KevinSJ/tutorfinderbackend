@@ -50,11 +50,8 @@
     "university": {
       "type": "string"
     },
-    "messageReceived":{
-      "type":"string"
-    },
-    "messageSent":{
-      "type":"string"     
+    "major": {
+      "type": "string"
     }
   },
   "validations": [],
