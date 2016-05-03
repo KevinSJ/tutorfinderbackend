@@ -49,6 +49,12 @@
     },
     "university": {
       "type": "string"
+    },
+    "messageReceived":{
+      "type":"string"
+    },
+    "messageSent":{
+      "type":"string"     
     }
   },
   "validations": [],
